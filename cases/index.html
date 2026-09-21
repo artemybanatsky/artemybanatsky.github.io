@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Портфолио кейсов | Артемий Банацкий</title>
+<meta name="description" content="Продуктовые кейсы Артемия Банацкого.">
+<style>
+:root{--bg:#141417;--bar:#1b1b1f;--line:#2a2a30;--fg:#ececef;--muted:#8d8d96}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.bar{position:sticky;top:0;z-index:5;background:var(--bar);border-bottom:1px solid var(--line)}
+.bar-in{max-width:820px;margin:0 auto;padding:12px 20px;display:flex;align-items:center}
+.logo{display:inline-flex;align-items:center;gap:10px;color:var(--fg);text-decoration:none;font:600 16px Georgia,"Times New Roman",serif}
+.ava{width:28px;height:28px;border-radius:50%;background:#3a3a44;display:grid;place-items:center;font:700 12px/1 -apple-system,Arial,sans-serif;color:#fff}
+.wrap{max-width:820px;margin:0 auto;padding:36px 20px 60px}
+h1{font-size:32px;line-height:1.15;margin:0 0 14px;letter-spacing:-.01em}
+.lead{color:var(--muted);font:16px/1.6 Georgia,"Times New Roman",serif;margin:0 0 30px}
+.card{display:flex;gap:22px;align-items:center;padding:22px 8px;border-top:1px solid var(--line);color:var(--fg);text-decoration:none}
+.card:last-child{border-bottom:1px solid var(--line)}
+.card:hover .t{text-decoration:underline;text-underline-offset:3px}
+.th{flex:0 0 180px;height:100px;border-radius:6px;background:#0f2a22;padding:12px 14px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+.th b{font:700 15px/1 -apple-system,Arial,sans-serif;color:#fff}
+.fn{display:flex;flex-direction:column;gap:4px}
+.fn span{height:7px;border-radius:2px;background:#c3dc3f}
+.tag{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.t{font-size:20px;font-weight:700;line-height:1.35}
+.t:after{content:" ↗";font-weight:400;color:var(--muted);font-size:16px}
+@media (max-width:600px){h1{font-size:26px}.card{flex-direction:column;align-items:flex-start;gap:14px}.th{flex-basis:auto;width:100%;height:110px}.t{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="bar"><div class="bar-in"><a class="logo" href="../"><span class="ava">АБ</span>Артемий Банацкий</a></div></div>
+<div class="wrap">
+<h1>Портфолио кейсов</h1>
+<p class="lead">Продуктовые кейсы: как я решаю задачи на реальных проектах. Каждый кейс — подробный разбор, открывается отдельно.</p>
+
+<a class="card" href="../tenniscult/">
+<div class="th"><b>TennisCult</b><div class="fn"><span style="width:100%"></span><span style="width:78%"></span><span style="width:46%"></span><span style="width:20%"></span></div></div>
+<div>
+<div class="tag">E-commerce · интернет-магазин</div>
+<div class="t">Почему у магазина теннисных рамок упали продажи и где он теряет покупателей: воронка, интервью и прототип нового сайта</div>
+</div>
+</a>
+</div>
+</body>
+</html>
