@@ -3,116 +3,109 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Артемий Банацкий — стажёр, менеджер продукта</title>
-<meta name="description" content="Резюме Артемия Банацкого: стажёр — менеджер продукта, Санкт-Петербург. Продуктовый кейс TennisCult.">
+<title>CV | Артемий Банацкий</title>
+<meta name="description" content="Резюме Артемия Банацкого — стажёр, менеджер продукта, Санкт-Петербург.">
 <style>
-:root{--ink:#111;--ink2:#444;--muted:#6b6b6b;--line:#111;--link:#0645ad;--bg:#fff;--page:#f3f3f1}
+:root{--bg:#141417;--bar:#1b1b1f;--line:#2a2a30;--fg:#ececef;--muted:#8d8d96;--btn:#ececef;--btnfg:#141417}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--page);color:var(--ink);font:16px/1.5 "Times New Roman",Times,Georgia,serif}
-main{max-width:860px;margin:32px auto;background:var(--bg);padding:48px 56px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-a{color:var(--link)}
-header{text-align:center;margin-bottom:8px}
-h1{font-size:30px;letter-spacing:.02em;margin:0;text-transform:uppercase}
-.role{font-weight:700;margin:2px 0 6px}
-.contacts{color:var(--ink2);font-size:15px}
-.contacts span+span:before{content:"·";margin:0 .6em;color:var(--muted)}
-.btn{display:inline-block;margin-top:10px;padding:8px 16px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;font-size:15px}
-.btn:hover{background:var(--ink);color:#fff}
-h2{font-size:15px;letter-spacing:.08em;text-transform:uppercase;border-bottom:1.5px solid var(--line);padding-bottom:3px;margin:26px 0 8px}
-.job{margin-top:12px}
-.job-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;flex-wrap:wrap}
-.job-title{font-weight:700}
-.date{font-style:italic;color:var(--ink2);white-space:nowrap;font-size:15px}
-ul{margin:4px 0 0;padding-left:18px}
-li{margin:3px 0;list-style:none;position:relative}
-li:before{content:"–";position:absolute;left:-16px}
-.skills div{margin:2px 0}
-b{font-weight:700}
-@media (max-width:640px){
-  body{font-size:15px}
-  main{margin:0;padding:28px 18px;box-shadow:none}
-  h1{font-size:24px}
-  .contacts span{display:block}
-  .contacts span+span:before{content:none}
-  .date{white-space:normal}
-}
-@media print{
-  body{background:#fff}
-  main{margin:0;padding:0;box-shadow:none;max-width:none}
-  .btn{display:none}
-  a{color:var(--ink);text-decoration:none}
-}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.bar{position:sticky;top:0;z-index:5;background:var(--bar);border-bottom:1px solid var(--line)}
+.bar-in{max-width:1000px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:10px}
+.logo{display:inline-flex;align-items:center;gap:10px;color:var(--fg);text-decoration:none;font:600 16px Georgia,"Times New Roman",serif}
+.ava{width:28px;height:28px;border-radius:50%;background:#3a3a44;display:grid;place-items:center;font:700 12px/1 -apple-system,Arial,sans-serif;color:#fff}
+.wrap{max-width:1000px;margin:0 auto;padding:28px 20px 60px}
+.crumb{color:var(--muted);font-size:15px;margin:0 0 16px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.b{display:inline-flex;align-items:center;gap:6px;padding:12px 18px;border-radius:8px;font-weight:600;font-size:15px;text-decoration:none}
+.b1{background:var(--btn);color:var(--btnfg)}
+.b2{border:1px solid var(--line);color:var(--fg)}
+.b2:hover{border-color:var(--muted)}
+/* лист резюме */
+.paper{background:#fff;color:#000;border-radius:4px;padding:40px 48px;font:14px/1.38 "Times New Roman",Times,serif;overflow-x:auto}
+.paper a{color:#0645ad}
+.hd{text-align:center}
+.hd h1{font-size:22px;margin:0;text-transform:uppercase;letter-spacing:.01em}
+.hd .r{font-weight:700}
+.hd .c{font-size:13.5px}
+.paper h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid #000;margin:14px 0 5px;padding-bottom:1px}
+.row{display:flex;justify-content:space-between;gap:12px;font-weight:700;margin-top:7px}
+.row i{font-weight:400;white-space:nowrap;font-size:13.5px}
+.paper ul{margin:1px 0 0;padding-left:14px}
+.paper li{list-style:none;position:relative;margin:1px 0}
+.paper li:before{content:"–";position:absolute;left:-12px}
+.sk div{margin:1px 0}
+@media (max-width:700px){.paper{padding:22px 16px;font-size:13px}.row{flex-direction:column;gap:0}.row i{white-space:normal}}
 </style>
 </head>
 <body>
-<main>
-<header>
-  <h1>Артемий Банацкий</h1>
-  <div class="role">Стажёр — менеджер продукта, г. Санкт-Петербург</div>
-  <div class="contacts">
-    <span><a href="mailto:artemybanatsky@yandex.ru">artemybanatsky@yandex.ru</a></span>
-    <span>Telegram: <a href="https://t.me/artemy_banatskiy">@artemy_banatskiy</a></span>
-  </div>
-  <a class="btn" href="https://banan777.github.io/tenniscult/">Открыть продуктовый кейс TennisCult →</a>
-</header>
+<div class="bar"><div class="bar-in"><a class="logo" href="./"><span class="ava">АБ</span>Артемий Банацкий</a></div></div>
+<div class="wrap">
+<p class="crumb">CV · Artemiy Banatskiy · Product Manager Intern</p>
+<div class="actions">
+<a class="b b1" href="cv.pdf" download>⤓ скачать PDF</a>
+<a class="b b2" href="cv.pdf" target="_blank" rel="noopener">открыть в новой вкладке ↗</a>
+</div>
+
+<div class="paper">
+<div class="hd">
+<h1>Артемий Банацкий</h1>
+<div class="r">Стажёр — менеджер продукта, г. Санкт-Петербург</div>
+<div class="c">+7 921 400-73-82 · artemybanatsky@yandex.ru · Telegram: @artemy_banatskiy</div>
+<div class="c">Портфолио: <a href="cases/">продуктовый кейс TennisCult</a></div>
+</div>
+
 <h2>О себе</h2>
 <ul>
-  <li><b>Решил продуктовый кейс для TennisCult:</b> прошёл путь от проверки бизнес-проблемы и исследования пользователей до формирования гипотез и валидации решения на прототипе</li>
-  <li><b>Управляю проектной командой при запуске собственного бренда одежды ACH:</b> веду продукт от формирования концепции до выхода на рынок, координируя дизайн, разработку сайта и маркетинг</li>
-  <li><b>С нуля запустил розничное направление ProGoal:</b> создал систему продаж, которая принесла компании более 1 000 000 ₽ выручки</li>
-  <li><b>Три года самостоятельно развивал собственный e-commerce-проект:</b> провёл более 500 личных продаж и получил 300+ пятизвёздочных отзывов</li>
+<li><b>Решил продуктовый кейс для TennisCult:</b> прошёл путь от проверки бизнес-проблемы и исследования пользователей до формирования гипотез и валидации решения на прототипе</li>
+<li><b>Управляю проектной командой при запуске собственного бренда одежды ACH:</b> веду продукт от формирования концепции до выхода на рынок, координируя дизайн, разработку сайта и маркетинг</li>
+<li><b>С нуля запустил розничное направление ProGoal:</b> создал систему продаж, которая принесла компании более 1 000 000 ₽ выручки</li>
+<li><b>Три года самостоятельно развивал собственный e-commerce-проект:</b> провёл более 500 личных продаж и получил 300+ пятизвёздочных отзывов</li>
 </ul>
+
 <h2>Опыт работы</h2>
-<div class="job">
-  <div class="job-head"><span class="job-title"><a href="https://banan777.github.io/tenniscult/">TennisCult</a> — интернет-магазин теннисных рамок | Продакт-менеджер</span><span class="date">Авг. 2026 – Сен. 2026</span></div>
-  <ul>
-    <li>определил причины снижения продаж и ключевые точки роста, проанализировав e-commerce-воронку и построив дерево метрик на основе данных Яндекс Метрики и CRM</li>
-    <li>сформировал и приоритизировал продуктовые гипотезы по итогам пользовательских интервью и юзабилити-тестирования; на их основе разработал решения по улучшению сайта и контент-воронки</li>
-    <li>подтвердил новую концепцию сайта на целевой аудитории: собрал интерактивный прототип с разработанными решениями и провёл решенческие интервью, по итогам которых все участники выбрали обновлённую версию</li>
-  </ul>
-</div>
-<div class="job">
-  <div class="job-head"><span class="job-title">ACH — бренд одежды | Co-Founder, Product Manager</span><span class="date">Апр. 2026 – н.в.</span></div>
-  <ul>
-    <li>управляю развитием продукта от концепции до запуска: формирую позиционирование бренда и концепцию первой коллекции, принимаю ключевые продуктовые решения, прорабатываю структуру и пользовательский путь интернет-магазина</li>
-    <li>управляю проектной командой и delivery-процессом: формирую roadmap запуска и бэклог проекта, декомпозирую и приоритизирую задачи, синхронизирую участников, контролирую сроки и качество результата</li>
-  </ul>
-</div>
-<div class="job">
-  <div class="job-head"><span class="job-title">ProGoal — хоккейная экипировка | Менеджер по развитию направления</span><span class="date">Янв. 2026 – Июль 2026</span></div>
-  <ul>
-    <li>запустил розничное направление с нуля: проанализировал рынок, конкурентов и потребности покупателей, создал систему продаж через Авито и личные продажи — <b>более 1 000 000 ₽ выручки в несезон</b></li>
-    <li>участвовал в разработке интернет-магазина: структура сайта, пользовательский путь, требования к оплате, доставке и интеграциям</li>
-    <li>вёл маркетинг направления: ТЗ дизайнеру, товарные фотосессии, наружная реклама и согласования с ареной</li>
-  </ul>
-</div>
-<div class="job">
-  <div class="job-head"><span class="job-title">E-commerce-проект по продаже кроссовок на Авито | Основатель</span><span class="date">Сен. 2022 – Окт. 2025</span></div>
-  <ul>
-    <li><b>Операционные процессы:</b> с нуля выстроил полный цикл — от оптовых закупок в Китае и контроля качества товара до размещения объявлений, продаж и сопровождения клиентов</li>
-    <li><b>Продажи и клиентский опыт:</b> провёл более 500 личных продаж, получил 300+ пятизвёздочных отзывов и сохранял максимальный рейтинг аккаунта на протяжении всего проекта</li>
-  </ul>
-</div>
+<div class="row"><span>TennisCult — интернет-магазин теннисных рамок | Продакт-менеджер</span><i>Авг. 2026 – Сен. 2026</i></div>
+<ul>
+<li>определил причины снижения продаж и ключевые точки роста, проанализировав e-commerce-воронку и построив дерево метрик на основе данных Яндекс Метрики и CRM</li>
+<li>сформировал и приоритизировал продуктовые гипотезы по итогам пользовательских интервью и юзабилити-тестирования; на их основе разработал решения по улучшению сайта и контент-воронки</li>
+<li>подтвердил новую концепцию сайта на целевой аудитории: собрал интерактивный прототип с разработанными решениями и провёл решенческие интервью, по итогам которых все участники выбрали обновлённую версию</li>
+</ul>
+<div class="row"><span>ACH — бренд одежды | Co-Founder, Product Manager</span><i>Апр. 2026 – н.в.</i></div>
+<ul>
+<li>управляю развитием продукта от концепции до запуска: формирую позиционирование бренда и концепцию первой коллекции, принимаю ключевые продуктовые решения, прорабатываю структуру и пользовательский путь интернет-магазина</li>
+<li>управляю проектной командой и delivery-процессом: формирую roadmap запуска и бэклог проекта, декомпозирую и приоритизирую задачи, синхронизирую участников, контролирую сроки и качество результата</li>
+</ul>
+<div class="row"><span>ProGoal — хоккейная экипировка | Менеджер по развитию направления</span><i>Янв. 2026 – Июль 2026</i></div>
+<ul>
+<li>запустил розничное направление с нуля: проанализировал рынок, конкурентов и потребности покупателей, создал систему продаж через Авито и личные продажи — <b>более 1 000 000 ₽ выручки в несезон</b></li>
+<li>участвовал в разработке интернет-магазина: структура сайта, пользовательский путь, требования к оплате, доставке и интеграциям</li>
+<li>вёл маркетинг направления: ТЗ дизайнеру, товарные фотосессии, наружная реклама и согласования с ареной</li>
+</ul>
+<div class="row"><span>E-commerce-проект по продаже кроссовок на Авито | Основатель</span><i>Сен. 2022 – Окт. 2025</i></div>
+<ul>
+<li><b>Операционные процессы:</b> с нуля выстроил полный цикл — от оптовых закупок в Китае и контроля качества товара до размещения объявлений, продаж и сопровождения клиентов</li>
+<li><b>Продажи и клиентский опыт:</b> провёл более 500 личных продаж, получил 300+ пятизвёздочных отзывов и сохранял максимальный рейтинг аккаунта на протяжении всего проекта</li>
+</ul>
+
 <h2>Дополнительно</h2>
-<div class="job">
-  <div class="job-head"><span class="job-title">Mystery Jersey — боксы со случайной джерси | Контент-продюсер / видеограф</span><span class="date">Ноя. 2025 – н.в.</span></div>
-  <ul>
-    <li>увеличил аудиторию Instagram с 6 до 13,5 тыс. подписчиков (+125%), TikTok — с 22 до 44,7 тыс. (+103%), Telegram — с 19 до 24 тыс. (+26%), отвечая за полный цикл производства видеоконтента: разработку контент-плана, съёмку и монтаж роликов, а также организацию и координацию отдельных крупных съёмок</li>
-  </ul>
-</div>
+<div class="row"><span>Mystery Jersey — боксы со случайной джерси | Контент-продюсер / видеограф</span><i>Ноя. 2025 – н.в.</i></div>
+<ul>
+<li>увеличил аудиторию Instagram с 6 до 13,5 тыс. подписчиков (+125%), TikTok — с 22 до 44,7 тыс. (+103%), Telegram — с 19 до 24 тыс. (+26%), отвечая за полный цикл производства видеоконтента: разработку контент-плана, съёмку и монтаж роликов, а также организацию и координацию отдельных крупных съёмок</li>
+</ul>
+
 <h2>Образование</h2>
-<div class="job-head"><span class="job-title">Университет ГУАП — «Цифровое качество и проектирование продукции»</span><span class="date">Бакалавриат, 2024 – 2028</span></div>
-<div class="job-head" style="margin-top:6px"><span class="job-title">Индивидуальное обучение продакт-менеджменту с ментором</span><span class="date">Июнь 2026 – н.в.</span></div>
+<div class="row"><span>Университет ГУАП — «Цифровое качество и проектирование продукции»</span><i>Бакалавриат, 2024 – 2028</i></div>
+<div class="row"><span>Индивидуальное обучение продакт-менеджменту с ментором</span><i>Июнь 2026 – н.в.</i></div>
+
 <h2>Навыки</h2>
-<div class="skills">
-  <div><b>Совместная работа —</b> Kaiten, Jira, Miro, Notion, Obsidian</div>
-  <div><b>Аналитика —</b> Яндекс Метрика, CRM, Excel, SQL (базовый уровень)</div>
-  <div><b>Прототипирование —</b> Figma, HTML, Claude Code</div>
-  <div><b>ИИ в работе —</b> ChatGPT, Claude</div>
-  <div><b>Видеомонтаж —</b> Adobe Premiere Pro</div>
-  <div><b>Языки —</b> Английский B2</div>
+<div class="sk">
+<div><b>Совместная работа —</b> Kaiten, Jira, Miro, Notion, Obsidian</div>
+<div><b>Аналитика —</b> Яндекс Метрика, CRM, Excel, SQL (базовый уровень)</div>
+<div><b>Прототипирование —</b> Figma, HTML, Claude Code</div>
+<div><b>ИИ в работе —</b> ChatGPT, Claude</div>
+<div><b>Видеомонтаж —</b> Adobe Premiere Pro</div>
+<div><b>Языки —</b> Английский B2</div>
 </div>
-</main>
+</div>
+</div>
 </body>
 </html>
